@@ -14,11 +14,9 @@
 
 - Make the active page correspond to the active link on the nav bar so you know where you are by looking at the nav.
 - Add the actual code the projects into the site so that it's not just a gif, but the real thing.
--
+- 
 
 2.  **Long Term Ideas:**
 
 - Add all of the projects onto one page with the ability to click to see more functionality if available.
--
-
-Follow my #100DaysOfCode on [Twitter](https;//twitter.com/mataspigaga)
+- 

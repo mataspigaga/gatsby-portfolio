@@ -7,6 +7,7 @@ const Layout = ({ pageTitle, children }) => {
     <div className={classes.container}>
       <title>{pageTitle}</title>
       <nav>
+        <h1 className={classes.heading}>{pageTitle}</h1>
         <ul className={classes.navLinks}>
           <li>
             <Link to="/" className={classes.navLinkText}>
@@ -25,10 +26,7 @@ const Layout = ({ pageTitle, children }) => {
           </li>
         </ul>
       </nav>
-      <main>
-        <h1 className={classes.heading}>{pageTitle}</h1>
-        {children}
-      </main>
+      <main>{children}</main>
     </div>
   );
 };

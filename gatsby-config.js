@@ -1,7 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Gatsby Portfolio",
+    siteUrl: "https://mataspigaga.com",
+    title: "Matas Pigaga - A Gatsby Portfolio",
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 };

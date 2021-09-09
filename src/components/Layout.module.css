@@ -1,3 +1,8 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .container {
   margin: auto;
   max-width: 500px;
@@ -10,7 +15,7 @@
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  padding-left: 0;
+  padding-top: 0.7rem;
 }
 .nav-links li {
   padding-right: 2rem;
