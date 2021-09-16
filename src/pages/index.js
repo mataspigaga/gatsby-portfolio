@@ -4,7 +4,7 @@ import JS30Challenges from "../components/Projects/JS30Challenges";
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Matas Pigaga">
+    <Layout pageTitle="Home">
       <p>In the process of building this site with Gatsby.js and Sanity</p>
       <h2>Projects</h2>
       <hr />

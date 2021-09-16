@@ -1,11 +1,12 @@
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .container {
   margin: auto;
-  max-width: 500px;
+  max-width: 700px;
   font-family: sans-serif;
 }
 .heading {
@@ -15,7 +16,6 @@ nav {
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  padding-top: 0.7rem;
 }
 .nav-links li {
   padding-right: 2rem;
@@ -23,4 +23,11 @@ nav {
 .nav-link-text {
   color: black;
   text-decoration: none;
+}
+
+.site-title {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin: 3rem 0;
 }

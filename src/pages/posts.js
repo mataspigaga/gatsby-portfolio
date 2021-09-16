@@ -1,15 +1,27 @@
 import * as React from "react";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 
-const PostsPage = () => {
+const PostsPage = ({ data }) => {
   return (
-    <Layout pageTitle="Matas Pigaga | Posts">
-      <p>
-        This is where the posts will go once I figure out how to implement
-        markdown
-      </p>
+    <Layout pageTitle="Posts">
+      <ul>
+        {data.allFile.nodes.map((node) => (
+          <li key={node.name}>{node.name}</li>
+        ))}
+      </ul>
     </Layout>
   );
 };
+
+export const query = graphql`
+  query PostFileNames {
+    allFile {
+      nodes {
+        name
+      }
+    }
+  }
+`;
 
 export default PostsPage;
