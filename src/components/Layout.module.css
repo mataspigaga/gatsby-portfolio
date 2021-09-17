@@ -1,3 +1,11 @@
+:root {
+  --lapis-lazuli: #2660a4ff;
+  --mint-cream: #edf7f6ff;
+  --sandy-brown: #f19953ff;
+  --vivid-burgundy: #a4243bff;
+  --rich-black-fogra-29: #07090fff;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -10,7 +18,7 @@ nav {
   font-family: sans-serif;
 }
 .heading {
-  color: rebeccapurple;
+  color: var(--lapis-lazuli);
 }
 .nav-links {
   display: flex;
@@ -21,13 +29,13 @@ nav {
   padding-right: 2rem;
 }
 .nav-link-text {
-  color: black;
+  color: var(--rich-black-fogra-29);
   text-decoration: none;
 }
 
 .site-title {
-  font-size: 3rem;
-  color: gray;
+  font-size: 2rem;
+  color: var(--rich-black-fogra-29);
   font-weight: 700;
   margin: 3rem 0;
 }
