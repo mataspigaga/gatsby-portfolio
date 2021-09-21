@@ -6,20 +6,31 @@
   --rich-black-fogra-29: #07090fff;
 }
 
-nav {
+/* nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+header img {
+  width: 125px;
+}
+header span {
+  display: flex;
+}
 
 .container {
-  margin: auto;
+  margin: 1rem auto 0;
   max-width: 700px;
   font-family: sans-serif;
 }
-.heading {
+/* .heading {
   color: var(--lapis-lazuli);
-}
+} */
 .nav-links {
   display: flex;
   justify-content: flex-end;
@@ -27,15 +38,19 @@ nav {
 }
 .nav-links li {
   padding-right: 2rem;
+  text-transform: uppercase;
 }
 .nav-link-text {
   color: var(--rich-black-fogra-29);
   text-decoration: none;
 }
-
-.site-title {
-  font-size: 2rem;
+.contact {
   color: var(--rich-black-fogra-29);
-  font-weight: 700;
-  margin: 3rem 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* margin: 0 0 1rem 0; */
+  background-color: var(--sandy-brown);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  color: var(--mint-cream);
 }

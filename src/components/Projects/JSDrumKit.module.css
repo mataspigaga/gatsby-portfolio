@@ -1,0 +1,41 @@
+.container {
+  background: url("../../images/jsdrumkitbackground.jpg") bottom center;
+  background-size: cover;
+}
+
+.keys {
+  display: grid;
+  min-height: 50vh;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.key {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1.5rem;
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}

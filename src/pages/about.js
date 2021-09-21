@@ -1,5 +1,5 @@
 import * as React from "react";
-import Layout from "../components/Layout";
+import Layout from "../components/UI/Layout";
 import headshot from "../images/profile_pic_headshot.jpeg";
 
 const AboutPage = () => {
