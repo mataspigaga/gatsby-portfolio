@@ -13,5 +13,12 @@ module.exports = {
         path: `${__dirname}/posts`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Olea Script\:400`, `Montserrat\:300,500,700`],
+        display: "swap",
+      },
+    },
   ],
 };

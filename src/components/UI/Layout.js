@@ -1,7 +1,8 @@
 import * as React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import * as classes from "./Layout.module.css";
-import Logo from "../../images/logo.svg";
+import Logo from "../../images/mp-logo-dark-inline.svg";
+import "@fontsource/pacifico";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -48,7 +49,7 @@ const Layout = ({ pageTitle, children }) => {
             href="https://twitter.com/mataspigaga/"
             className={classes.contact}
           >
-            say hi
+            Say Hi
           </a>
         </span>
       </header>
