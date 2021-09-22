@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://mataspigaga.com",
+    siteUrl: "https://matas.io/",
     title: "Matas Pigaga - A Gatsby Portfolio",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     {
@@ -14,10 +15,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: "gatsby-plugin-mdx",
       options: {
-        fonts: [`Olea Script\:400`, `Montserrat\:300,500,700`],
-        display: "swap",
+        extensions: [`.mdx`, `.md`],
       },
     },
   ],

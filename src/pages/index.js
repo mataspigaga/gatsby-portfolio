@@ -1,6 +1,5 @@
 import * as React from "react";
 import Layout from "../components/UI/Layout";
-// import JS30Challenges from "../components/Projects/JS30Challenges";
 
 const IndexPage = () => {
   return (
