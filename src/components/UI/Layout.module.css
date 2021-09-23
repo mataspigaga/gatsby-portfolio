@@ -128,3 +128,12 @@ ul {
 .contact:hover {
   background-color: #ed7a1d;
 }
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  nav ul {
+    margin-top: 0;
+  }
+}
