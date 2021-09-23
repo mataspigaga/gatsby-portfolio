@@ -4,7 +4,6 @@ import Layout from "../components/UI/Layout";
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home">
-      <hr />
       <p>In the process of building this site with Gatsby.js and Sanity</p>
       <h2>Projects</h2>
       <p>Projects will be going here shortly...</p>

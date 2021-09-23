@@ -58,6 +58,7 @@ const Layout = ({ pageTitle, children }) => {
             Say Hi
           </a>
         </header>
+        <hr />
         <main>{children}</main>
       </div>
     </>

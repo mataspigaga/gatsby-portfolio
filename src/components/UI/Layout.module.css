@@ -20,6 +20,69 @@ header {
 header img {
   width: 200px;
 }
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about-page p {
+  text-align: center;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 30%;
+  margin-top: 0.5rem;
+}
+
+.social-media-links ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-media-links li {
+  margin: 0 0 1.5rem 0;
+}
+
+.twitter {
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  background-color: #1da1f2;
+  border-radius: 0.5rem;
+}
+.github {
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  background-color: #1b1f22;
+  border-radius: 0.5rem;
+}
+.instagram {
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  background-color: #30618a;
+  border-radius: 0.5rem;
+}
+.email {
+  color: var(--mint-cream);
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  background-color: var(--sandy-brown);
+  border-radius: 0.5rem;
+}
 
 .container {
   margin: 1.5rem auto 0;
@@ -27,6 +90,12 @@ header img {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+main p,
+ul {
+  line-height: 1.5;
+}
+
 /* .heading {
   color: var(--lapis-lazuli);
 } */

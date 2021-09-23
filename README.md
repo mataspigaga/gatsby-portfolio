@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.matas.io/">
+  <a href="https://matas.io/">
     <img alt="Matas Pigaga Logo" src="https://matas.io/static/mp-favicon-322541e894a666d189cf0c86e6d2313a.svg" width="100" />
   </a>
 </p>
