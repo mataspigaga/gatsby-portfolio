@@ -1,14 +1,18 @@
 import * as React from "react";
 import Layout from "../components/UI/Layout";
-import headshot from "../images/cartoon-headshot-circle.svg";
 import * as classes from "../components/UI/Layout.module.css";
+import { StaticImage } from "gatsby-plugin-image";
 
 const AboutPage = () => {
   return (
     <Layout pageTitle="About">
       <div className={classes.aboutPage}>
         <div className={classes.imageContainer}>
-          <img src={headshot} alt="matas pigaga twitter headshot" />
+          <StaticImage
+            src="../images/cartoon-headshot-circle.svg"
+            alt="matas pigaga twitter headshot"
+            className={classes.imageContainerImage}
+          />
         </div>
         <p>
           Hi, I'm a web developer exploring the MERNG stack. Right now, I am

@@ -1,10 +1,10 @@
 import * as React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import * as classes from "./Layout.module.css";
-import Logo from "../../images/mp-logo-dark-inline.svg";
 import favicon from "../../images/mp-favicon.svg";
 import "@fontsource/pacifico";
 import { Helmet } from "react-helmet";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -22,14 +22,18 @@ const Layout = ({ pageTitle, children }) => {
       <Helmet>
         <html lang="en" />
         <link rel="icon" type="image/svg" sizes="32x32" href={favicon} />
-      </Helmet>
-      <div className={classes.container}>
         <title>
           {pageTitle} | {data.site.siteMetadata.title}
         </title>
+      </Helmet>
+      <div className={classes.container}>
         <header>
           <Link to="/">
-            <img src={Logo} alt="logo" />{" "}
+            <StaticImage
+              src="../../images/mp-logo-dark-inline.svg"
+              alt="logo"
+              className={classes.headerLogo}
+            />{" "}
           </Link>
           <nav>
             {/* <h1 className={classes.heading}>{pageTitle}</h1> */}

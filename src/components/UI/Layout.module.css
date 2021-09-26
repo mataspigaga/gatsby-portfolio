@@ -17,7 +17,7 @@ header {
   /* width: 100%; */
   align-items: center;
 }
-header img {
+.header-logo {
   width: 200px;
 }
 .about-page {
@@ -38,7 +38,7 @@ header img {
   justify-content: center;
 }
 
-.image-container img {
+.image-container-image {
   width: 30%;
   margin-top: 0.5rem;
 }
@@ -93,7 +93,7 @@ header img {
 
 main p,
 ul {
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 /* .heading {
