@@ -17,6 +17,12 @@ header {
   /* width: 100%; */
   align-items: center;
 }
+header h1 {
+  font-size: 2rem;
+}
+a {
+  color: var(--lapis-lazuli)
+}
 .header-logo {
   width: 200px;
 }
