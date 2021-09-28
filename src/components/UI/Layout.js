@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import * as classes from "./Layout.module.css";
-import favicon from "../../images/mp-favicon.svg";
-import logo from '../../images/mp-logo-dark-inline.svg'
+import favicon from "../../site-assets/mp-favicon.svg";
+import logo from '../../site-assets/mp-logo-dark-inline.svg'
 import "@fontsource/pacifico";
 import { Helmet } from "react-helmet";
 

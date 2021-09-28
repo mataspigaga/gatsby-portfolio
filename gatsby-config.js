@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://matas.io/",
-    title: "Matas Pigaga - A Gatsby Portfolio",
+    title: "Matas Pigaga",
   },
   plugins: [
     "gatsby-plugin-sass",
