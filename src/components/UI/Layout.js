@@ -1,10 +1,10 @@
 import * as React from "react";
-import { Link, useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 import * as classes from "./Layout.module.css";
 import favicon from "../../site-assets/mp-favicon.svg";
-import logo from '../../site-assets/mp-logo-dark-inline.svg'
 import "@fontsource/pacifico";
 import { Helmet } from "react-helmet";
+import Header from "./Header";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -27,41 +27,7 @@ const Layout = ({ pageTitle, children }) => {
         </title>
       </Helmet>
       <div className={classes.container}>
-        <header>
-          <Link to="/">
-            <img
-              src={logo}
-              alt="logo"
-              className={classes.headerLogo}
-            />
-          </Link>
-          <nav>
-            {/* <h1 className={classes.heading}>{pageTitle}</h1> */}
-            <ul className={classes.navLinks}>
-              <li>
-                <Link to="/" className={classes.navLinkText}>
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link to="/about" className={classes.navLinkText}>
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link to="/posts" className={classes.navLinkText}>
-                  Posts
-                </Link>
-              </li>
-            </ul>
-          </nav>
-          <a
-            href="https://twitter.com/mataspigaga/"
-            className={classes.contact}
-          >
-            Say Hi
-          </a>
-        </header>
+        <Header />
         <hr />
         <main>{children}</main>
       </div>
