@@ -46,8 +46,8 @@ const AboutMe = () => {
             </a>
           </li>
           <li>
-            <a href="mailto:contact@matas.io" className={classes.email}>
-              Email
+            <a href="mailto:hello@matas.io" className={classes.email}>
+              hello@matas.io
             </a>
           </li>
         </ul>
