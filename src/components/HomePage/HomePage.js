@@ -18,7 +18,7 @@ const HomePage = () => {
       <h2>About Me</h2>
       <AboutMe />
       <h2>Selected Projects</h2>
-      <p>Projects will be going here shortly...</p>
+      <p>Projects will be going here shortly... some things are in the works.</p>
     </Layout>
   );
 };
